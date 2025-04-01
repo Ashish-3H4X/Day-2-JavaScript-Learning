@@ -91,3 +91,16 @@ result =
 ${x}
 `
 
+// example 8
+
+var x = 10
+var y = 5;
+x ||= y;
+document.getElementById('demo8').innerHTML=`
+
+var x = 10 <br>
+var y = 5; <br>
+x ||= y; <br>
+result =
+${x}
+`
