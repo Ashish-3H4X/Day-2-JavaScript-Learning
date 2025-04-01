@@ -76,3 +76,18 @@ result =
 ${x}
 `
 
+
+
+//example 7
+var x = 10
+var y = 5;
+x &&= y;
+document.getElementById('demo7').innerHTML=`
+
+var x = 10 <br>
+var y = 5; <br>
+x &&= y; <br>
+result =
+${x}
+`
+
