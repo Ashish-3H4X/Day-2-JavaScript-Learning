@@ -104,3 +104,17 @@ x ||= y; <br>
 result =
 ${x}
 `
+// example 9 
+
+var x = null;
+var y = 5;
+x ??= y;
+document.getElementById('demo9').innerHTML=`
+
+var x = 10 <br>
+var y = 5; <br>
+x ??= y; <br>
+result =
+${x}
+`
+
