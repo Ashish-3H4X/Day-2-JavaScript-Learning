@@ -44,9 +44,22 @@ x &= y;
 document.getElementById('demo4').innerHTML=`
 
 var x = 10 ;<br>
-var y = 9;<br>
+var y = 5;<br>
 x &= y;<br>
 result =
 ${x}
 
+`
+// exapmle 5
+
+var x = 10
+var y = 5;
+x |= y;
+document.getElementById('demo5').innerHTML=`
+
+var x = 10 <br>
+var y = 5; <br>
+x |= y; <br>
+result =
+${x}
 `
