@@ -63,3 +63,16 @@ x |= y; <br>
 result =
 ${x}
 `
+//example 6
+var x = 10
+var y = 5;
+x ^= y;
+document.getElementById('demo6').innerHTML=`
+
+var x = 10 <br>
+var y = 5; <br>
+x ^= y; <br>
+result =
+${x}
+`
+
